@@ -11,17 +11,12 @@ import sys
 import time
 
 N = 164
-#N = 5
-
 
 idea_prompt = """main.py is an incomplete Python code fragment. Please implement the function `{func_name}` and DO NOT CHANGE THE FUNCTION NAME. 
 ```main.py
 {problem}
 ```
 """
-# The above is an incomplete Python code fragment. Return the complete and correct code with no additional text.
-# Please implement the function `{func_name}`. DO NOT CHANGE THE FUNCTION NAME. 
-
 
 def newest_rename(parent=".", moveto=".", proj_name=""):
 
